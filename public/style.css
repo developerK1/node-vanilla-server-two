@@ -1,0 +1,89 @@
+body {
+		background-color : red;
+}
+
+nav {
+	display :flex;
+	height : 10vh;
+	background-color :#68b2d9;
+	color :black;
+	width : 100%;
+	
+}
+nav .btn{
+	background-color : black;
+	border : 3px solid white;
+	color : white;
+	border-radius : 5px;
+}
+.btn{
+	width : 190px;
+	height : 42px;
+	line-height : 40px;
+	text-align :center;
+	margin : auto;
+	outline : none;
+	cursor : pointer;
+	transition : all 0.5s ease-in-out;
+}		
+#form {
+	min-height : 50vh;
+	width  : 100%;
+	display : flex;
+	margin-bottom : 20px;
+}
+form {
+	margin : auto;
+	width : 480px;
+	padding : 1% 2%;
+	height : 250px;
+	display :flex;
+	flex-direction :column;
+	align-items :center;
+	justify-content : space-evenly;
+	border : 5px solid blue;
+}
+form aside {
+	text-align : center;
+	display :flex;
+	width : 100%;
+	height : 12vh;
+	flex-direction :column;
+	align-items :center;
+	justify-content : space-evenly;
+}
+form aside input{
+	width : 90%;
+	height : 30px;
+	border-radius : 6px;
+	text-align :center;
+}
+form aside textarea{
+	width : 90%;
+	border-radius : 6px;
+	text-align :center;
+}
+form aside .btn{
+	background-color : #68b2d9;
+	border : 3px solid black;
+}
+footer {
+	height : 30vh;
+	display :block !important;
+	width : 100% !important;
+}
+
+
+form aside .btn:hover {
+	background-color : black;
+	letter-spacing : 1.8px;
+	color :white;
+	font-weight : 700;
+}
+nav .btn:hover {
+	background-color : #94c0d7;
+	letter-spacing : 1.8px;
+	color :black;
+	border : none;
+	font-weight : 700;
+}
